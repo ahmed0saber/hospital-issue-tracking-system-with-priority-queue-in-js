@@ -1,6 +1,6 @@
-import Queue from "./queue.js";
+import PriorityQueue from "./priority-queue.js";
 
-const issuesHandler = new Queue()
+const issuesHandler = new PriorityQueue()
 
 issuesHandler.enqueue("Water cut in bathroom", 1)
 issuesHandler.enqueue("Empty room needs to be cleaned and prepared", 3)

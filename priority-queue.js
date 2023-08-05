@@ -1,4 +1,4 @@
-class Queue {
+class PriorityQueue {
     constructor() {
         this.items = []
     }
@@ -42,4 +42,4 @@ class Queue {
     }
 }
 
-export default Queue
+export default PriorityQueue
